@@ -10,24 +10,33 @@
 
 <body>
     <header>
-        <center>
-            <img src="/02atvidadeHTML/assets/andressaUrach" alt="Andressa Urach, dona do nosso mercado" width="1800" height="900">
-            <p>
-                Seja bem-vindo ao nosso mercado online! Aqui, você pode consultar os preços dos nossos produtos e fazer
-                o
-                seu
-                pedido! Frete grátis em compras acima de R&dollar;60,00.
-            </p>
-            <button>Adicionar endereço para entrega</button>
-        </center>
+        <nav>
+            <center>
+                <img src="/02atvidadeHTML/assets/andressaUrach" alt="Andressa Urach, dona do nosso mercado" width="1000"
+                    height="700">
+                <p>
+                    Seja bem-vindo ao nosso açougue online! Aqui, você pode consultar os preços dos nossos produtos e
+                    fazer o seu pedido! Frete grátis em compras acima de R&dollar;60,00.
+                </p>
+                <button>Adicionar endereço para entrega</button>
+            </center>
+            <h1>Açougue</h1> 
+            <img src="/02atvidadeHTML/assets/Açougue.avif" alt="foto do açougue">
+            <ul>
+                <li><a href="#CarnesBovinas">Carnes Bovinas</a></li>
+                <li><a href="#Frango">Carnes de Frango</a></li>
+                <li><a href="#carneSuina">Carne Suína</a></li>
+                <li><a href="#churrasco">Carnes Especiais/Churrasco</a></li>
+                <li><a href="#Complementares">Produtos Complementares</a></li>
+            </ul>
+
+        </nav>
     </header>
 
     <main>
-        <section id="Açougue">
-            <h2>Açougue</h2>
-            <img src="/02atvidadeHTML/assets/Açougue.avif" alt="foto do açougue">
-
-            <ul>
+        <section id="Acougue">
+            
+            <ul id="CarnesBovinas">
                 <h3>Carnes bovinas</h3>
                 <li>
                     <dl>
@@ -87,7 +96,7 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul id="Frango">
                 <h3>Carnes de frango</h3>
                 <li>
                     <dl>
@@ -100,7 +109,8 @@
                 <li>
                     <dl>
                         <dt>Coxa e Sobrecoxa</dt>
-                        <img src="/02atvidadeHTML/assets/coxaEsobrecoxa.webp" alt="Coxa e Sobrecoxa" height="300" width="400">
+                        <img src="/02atvidadeHTML/assets/coxaEsobrecoxa.webp" alt="Coxa e Sobrecoxa" height="300"
+                            width="400">
                         <dd>R$ 14,50/kg</dd>
                     </dl>
                 </li>
@@ -114,78 +124,146 @@
                 <li>
                     <dl>
                         <dt>Frango Inteiro</dt>
-                        <img src="/02atvidadeHTML/assets/frangoInteiro.webp" alt="Frango Inteiro Temperado" height="300" width="400">
+                        <img src="/02atvidadeHTML/assets/frangoInteiro.webp" alt="Frango Inteiro Temperado" height="300"
+                            width="400">
                         <dd>R$ 11,90/kg</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
                         <dt>Coração de Frango</dt>
-                        <img src="/02atvidadeHTML/assets/Coracao-de-frango.webp" alt="Coração de Frango" height="300" width="400">
+                        <img src="/02atvidadeHTML/assets/Coracao-de-frango.webp" alt="Coração de Frango" height="300"
+                            width="400">
                         <dd>R$ 24,90/kg</dd>
                     </dl>
                 </li>
             </ul>
 
-            <ul>
+            <ul id="carneSuina">
                 <h3>Carnes Suínas</h3>
                 <li>
                     <dl>
                         <dt>Costelinha Suína</dt>
-                        <img src="" alt="" height="300" width="400">
+                        <img src="/02atvidadeHTML/assets/carneSuína.webp" alt="Carne Suína" height="300" width="400">
                         <dd>R$ 24,90/kg</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
                         <dt>Lombo Suíno</dt>
-                        <img src="" alt="" height="300" width="400">
+                        <img src="assets/lomboSuíno.webp" alt="Lombo Suíno" height="300" width="400">
                         <dd>R$ 22,50/kg</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
                         <dt>Pernil com osso</dt>
-                        <img src="" alt="" height="300" width="400">
+                        <img src="assets/pernil.webp" alt="Pernil Suíno com Osso" height="300" width="400">
                         <dd>R$ 18,90/kg</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
                         <dt>Linguiça Toscana</dt>
-                        <img src="" alt="" height="300" width="400">
+                        <img src="assets/LinguicaToscana.jpeg" alt="Linguiça Toscana" height="300" width="400">
                         <dd>R$ 19,90/kg</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
-                        <dt>Bacon em pedaço</dt>
-                        <img src="" alt="" height="300" width="400">
+                        <dt>Bacon em pedaços</dt>
+                        <img src="assets/baconEmPedacos.jpg" alt="Bacon em pedaços" height="300" width="400">
                         <dd>R$ 34,90/kg</dd>
                     </dl>
                 </li>
             </ul>
-            <ul>
+
+            <ul id="churrasco">
                 <h3>Carnes Especiais/Churrasco</h3>
                 <li>
                     <dl>
-                        <dt>Kit Churrasco (Picanha, Linguiça, Asinha, Coração)</dt>
-                        <img src="" alt="" height="300" width="400">
-                        <dd></dd>
+                        <dt>Kit Churrasco Completão</dt>
+                        <img src="assets/kitChurrasco.webp" alt="Kit de Churrasco" height="300" width="400">
+                        <ul>
+                            <li>1 Bife Flat iron</li>
+                            <li>2 Bifes Ribeye In natura</li>
+                            <li>1 Frango temperado</li>
+                            <li>2 Bifes de Lombo</li>
+                            <li>1 Picanha</li>
+                            <li>1 Fraldinha</li>
+                            <li>1 Pão de alho</li>
+                            <li>Linguiça</li>
+                            <li>Brinde</li>
+                        </ul>
+                        <dd>Peso: 5,1kg</dd>
+                        <dd>R$ 296,95</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
-                        <dt></dt>
-                        <img src="" alt="" height="300" width="400">
-                        <dd></dd>
+                        <dt>Espetinhos variados (bovino, suíno, frango, queijo) </dt>
+                        <ul>
+                            <li>
+                                <p>Espetinho de Carne</p>
+                                <img src="assets/espetinhoBovino.webp" alt="Espetinho de Carne" height="300"
+                                    width="400">
+                            </li>
+                            <li>
+                                <p>Espetinho Suíno</p> <img src="assets/espetoSuino.jpeg"
+                                    alt="Espetinho de Carne de Porco" height="300" width="400">
+                            </li>
+                            <li>
+                                <p>Espetinho de Frango com Pimentão vermelho, amerelo e verde</p> <img
+                                    src="assets/espetoFrangoPimentao.avif"
+                                    alt="Espetinho com Peito de Frango e Pimentões" height="300" width="400">
+                            </li>
+                            <li>
+                                <p>Espetinho de Queijo</p> <img src="assets/espetinhoQueijo.webp"
+                                    alt="Espetinho de Queijo" height="300" width="400">
+                            </li>
+                        </ul>
+                        <dd>R$ 4,00/unidade</dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
-                        <dt></dt>
-                        <img src="" alt="" height="300" width="400">
-                        <dd></dd>
+                        <dt>Queijo coalho com melado</dt>
+                        <img src="assets/queijoComMelado.png" alt="Queijo Coalho com Melado" height="300" width="400">
+                        <dd>R$ 5,50/unidade</dd>
+                    </dl>
+                </li>
+            </ul>
+
+            <ul id="Complementares">
+                <h3>Produtos Complementares</h3>
+
+                <li>
+                    <dl>
+                        <dt>Carvão (5kg)</dt>
+                        <img src="assets/sacoParaCarvao.png" alt="Saco de Carvão 5kg" height="400" width="400">
+                        <dd>R$ 14,90</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Sal grosso</dt>
+                        <img src="assets/salGrosso.webp" alt="Sal grosso 1kg" height="400" width="400">
+                        <dd>R$ 5,00 (1kg)</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Farofa</dt>
+                        <img src="assets/Farofa-Sabor-Churrasco-Sekiama-245g.png" alt="Farofa sabore churrasco"
+                            height="400" width="400">
+                        <dd>R$ 7,50 (500g)</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Molho barbecue</dt>
+                        <img src="assets/molho-barbecue-tradicional-hellmans.avif" alt="" height="400" width="400">
+                        <dd>R$ 12,90 (frasco 400mg)</dd>
                     </dl>
                 </li>
             </ul>
@@ -193,5 +271,9 @@
     </main>
 
 </body>
+
+<footer>
+
+</footer>
 
 </html>
